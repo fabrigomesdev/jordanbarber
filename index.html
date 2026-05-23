@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Barber - Caá Catí</title>
+    <meta name="description"
+        content="Jordan Barber en Caá Catí. Estilo que te representa, confianza que se nota. Cortes, barba y combos.">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!--link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="manifest" href="manifest.json"-->
+</head>
+
+<body>
+
+    <header>
+        <h1>Jordan <span>BARBER</span></h1>
+        <p class="slogan">Estilo que te representa, confianza que se nota</p>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#galeria">Galería</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Más que un corte, una experiencia</h2>
+        <p>Cortes modernos, clásicos y atención personalizada en Caá Catí</p>
+        <a href="https://wa.me/5493781490508?text=Hola%20Jordan,%20quiero%20reservar%20un%20turno" class="btn"
+            target="_blank" rel="noopener noreferrer">Reservar turno</a>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios">
+            <div class="card">
+                <h3>Corte</h3>
+                <p>Clásico o moderno</p>
+                <p>$10000</p>
+            </div>
+            <div class="card">
+                <h3>Barba</h3>
+                <p>Perfilado</p>
+                <p>$10000</p>
+            </div>
+            <div class="card">
+                <h3>Combo</h3>
+                <p>Corte + barba</p>
+                <p>$17000</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería</h2>
+        <div class="galeria">
+            <img src="Corte1.jpg" alt="Corte de cabello moderno" loading="lazy">
+            <img src="Corte2.jpg" alt="Corte clásico de hombre" loading="lazy">
+            <img src="Corte3.jpg" alt="Barbería estilo moderno" loading="lazy">
+            <img src="Corte4.jpg" alt="Fade masculino" loading="lazy">
+        </div>
+    </section>
+
+    <section id="equipo">
+        <h2>Barbero</h2>
+        <div class="equipo">
+            <div class="peluquero">
+                <img src="peluquero.jpg" alt="Foto de Jordan">
+                <h3>Jordan</h3>
+                <p>Especialista en cortes clásicos, fades y degradados</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Atendemos por orden de llegada o por turno previo</p>
+        <p><strong>Dirección:</strong> Brunel Pruyas esquina Ferre, Caá Catí</p>
+        <p><strong>Horarios:</strong> 15:00 hs a 19:30 hs</p>
+        <p><strong>WiFi:</strong> Disponible</p>
+        <a href="https://maps.app.goo.gl/PBtrMa2NJa9E1zxG9?g_st=ac" target="_blank"
+            class="btn btn-maps">Cómo llegar</a>
+    </section>
+
+    <a href="https://wa.me/5493781490508?text=Hola%20Jordan,%20quiero%20reservar%20un%20turno" class="whatsapp-float"
+        target="_blank" rel="noopener noreferrer">💬</a>
+
+    <footer>
+        <p>© 2026 Jordan Barber</p>
+        <div class="dev-credit">
+            <p>Desarrollado por Fabricio</p>
+            <img src="copy-paste-bros.png" alt="Copy Paste Bros">
+        </div>
+    </footer>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js');
+        }
+    </script>
+</body>
+
+</html>
